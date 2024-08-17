@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f3f3f3;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: 900;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+::selection{
+    color: rgb(226, 160, 63);
+}
