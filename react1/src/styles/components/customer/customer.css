@@ -1,0 +1,50 @@
+.customerSection{
+    /* background-color:#f1f1f1; */
+    padding-inline: 6em;
+    padding-block: 5em;
+}
+.customerCard_container{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.customerSection h3 {
+    font-size: 2.5em;
+    font-weight:bolder;
+    text-transform: capitalize;
+    margin-bottom: 2em;
+    color: white;
+}
+.customerCard {
+    width: calc((100% - 4em ) / 3);
+    padding: 1em;
+}
+.customerCard:hover img {
+    transform: scale(1.2);
+}
+.customerCard_image {
+    height: 30vh;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+.customerCard_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.customerCard_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.customerCard_content h5 {
+    font-size: 1.75em;
+    font-weight: 500;
+
+}
+.customerCard_content p {
+    opacity: .5;
+    
+}

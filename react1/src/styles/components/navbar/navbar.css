@@ -1,0 +1,19 @@
+.navbar {
+    background: white;
+    padding-inline: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1em;
+    .navbar_logo {
+        background: #1d1d1d;
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+    }
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2em;
+}
